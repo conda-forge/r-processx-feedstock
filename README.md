@@ -14,9 +14,9 @@ Summary: Portable tools to run system processes in the background. It can check 
 Current build status
 ====================
 
-Linux: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-processx-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-processx-feedstock)
 OSX: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-processx-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-processx-feedstock/branch/master)
 
 Current release info
 ====================
