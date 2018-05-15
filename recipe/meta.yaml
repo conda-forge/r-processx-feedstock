@@ -1,4 +1,4 @@
-{% set version = '2.0.0.1' %}
+{% set version = "3.1.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/processx_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/processx/processx_{{ version }}.tar.gz
-  sha256: 8f61b2952d0f2d13c74465bfba174ce11eee559475c2f7b9be6bcb9e2e1d827b
+  sha256: 11ac120ab4e4aa0e99c9b2eda87d07bc683bab735f1761e95e5ddacd311b5972
 
 build:
   number: 0
