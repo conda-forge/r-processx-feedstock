@@ -28,7 +28,7 @@ requirements:
     - r-r6
     - r-assertthat
     - r-crayon
-    - r-debugme
+    - r-testthat
     - posix  # [win]
     - {{native}}toolchain  # [win]
     - gcc  # [not win]
@@ -37,7 +37,7 @@ requirements:
     - r-r6
     - r-assertthat
     - r-crayon
-    - r-debugme
+    - r-testthat
     - libgcc  # [not win]
 
 test:
