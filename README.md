@@ -14,14 +14,16 @@ Summary: Portable tools to run system processes in the background. It can check 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-processx-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-processx-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-processx-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-processx-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-processx-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-processx-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-processx-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-processx-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-processx-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-processx-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-processx-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-processx-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-processx/badges/version.svg)](https://anaconda.org/conda-forge/r-processx)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-processx/badges/downloads.svg)](https://anaconda.org/conda-forge/r-processx)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--processx-green.svg)](https://anaconda.org/conda-forge/r-processx) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-processx.svg)](https://anaconda.org/conda-forge/r-processx) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-processx.svg)](https://anaconda.org/conda-forge/r-processx) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-processx.svg)](https://anaconda.org/conda-forge/r-processx) |
 
 Installing r-processx
 =====================
