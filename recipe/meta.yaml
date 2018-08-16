@@ -25,23 +25,27 @@ build:
 
 requirements:
   build:
-    - posix  # [win]
-    - {{ compiler('c') }}        # [unix]
-    - {{ compiler('m2w64_c') }}  # [win]
-    - {{ compiler('cxx') }}        # [unix]
-    - {{ compiler('m2w64_cxx') }}  # [win]
+    - {{ compiler('c') }}        # [not win]
+    - {{native}}toolchain        # [win]
+    - {{posix}}filesystem        # [win]
+    - {{posix}}make
+    - {{posix}}sed               # [win]
+    - {{posix}}coreutils         # [win]
+    - {{posix}}zip               # [win]
   host:
     - r-base
     - r-r6
     - r-assertthat
     - r-crayon
     - r-testthat
+    - r-ps
   run:
     - r-base
     - r-r6
     - r-assertthat
     - r-crayon
     - r-testthat
+    - r-ps
 
 test:
   commands:
