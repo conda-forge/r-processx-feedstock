@@ -1,13 +1,13 @@
 About r-processx
 ================
 
-Home: https
+Home: https://github.com/r-lib/processx#readme
 
 Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: Portable tools to run system processes in the background. It can check if a background process is running; wait on a background process to finish; get the exit status of finished processes; kill background processes and their children; restart processes. It can read the standard output and error of the processes, using non-blocking connections. 'processx' can poll a process for standard output or error, with a timeout. It can also poll several processes at once.
+Summary: Tools to run system processes in the background. It can check if a background process is running; wait on a background process to finish; get the exit status of finished processes; kill background processes. It can read the standard output and error of the processes, using non-blocking connections. 'processx' can poll a process for standard output or error, with a timeout. It can also poll several processes at once.
 
 
 
