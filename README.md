@@ -1,7 +1,7 @@
 About r-processx
 ================
 
-Home: https://github.com/r-lib/processx#readme
+Home: https://processx.r-lib.org, https://github.com/r-lib/processx#readme
 
 Package license: MIT
 
