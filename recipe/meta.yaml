@@ -40,8 +40,11 @@ requirements:
 
 test:
   commands:
-    - $R -e "library('processx')"           # [not win]
+    - $R -e "library('processx')"           # [(not win) and (not ppc64le)]
     - "\"%R%\" -e \"library('processx')\""  # [win]
+    # Loading the library fails due to https://github.com/r-lib/ps/issues/82
+    # just check for its existence.
+    - test -f $PREFIX/lib/R/library/processx/libs/processx.so  # [ppc64le]
 
 about:
   home: https://processx.r-lib.org, https://github.com/r-lib/processx#readme
