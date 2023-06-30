@@ -1,4 +1,4 @@
-{% set version = "3.8.1" %}
+{% set version = "3.8.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/processx_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/processx/processx_{{ version }}.tar.gz
-  sha256: e008472b81d4ca1a37a4ba7dd58e5e944f96ab2e44c8ccc8840d43e9fe99e93c
+  sha256: e91b87af5b23c14b71003ec880f749dca81fd74f0601ab59ea1847c7fe857ecd
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
