@@ -3,6 +3,7 @@ About r-processx-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-processx-feedstock/blob/main/LICENSE.txt)
 
+
 About r-processx
 ----------------
 
@@ -11,6 +12,7 @@ Home: https://processx.r-lib.org, https://github.com/r-lib/processx#readme
 Package license: MIT
 
 Summary: Tools to run system processes in the background. It can check if a background process is running; wait on a background process to finish; get the exit status of finished processes; kill background processes. It can read the standard output and error of the processes, using non-blocking connections. 'processx' can poll a process for standard output or error, with a timeout. It can also poll several processes at once.
+
 About r-processx
 ----------------
 
@@ -195,7 +197,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
