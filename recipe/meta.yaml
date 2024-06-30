@@ -1,6 +1,5 @@
 {% set version = "3.8.4" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-processx
@@ -13,8 +12,7 @@ source:
   sha256: 6627672d7fb109f37dc1d0eaef913f4cfc7ad8ac807abf0397e6d37753b1e70b
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -23,7 +21,9 @@ requirements:
   build:
     - cross-r-base {{ r_base }}  # [build_platform != target_platform]
     - {{ compiler('c') }}              # [not win]
+    - {{ stdlib("c") }}                # [not win]
     - {{ compiler('m2w64_c') }}        # [win]
+    - {{ stdlib("m2w64_c") }}          # [win]
     - {{ posix }}filesystem        # [win]
     - {{ posix }}make
     - {{ posix }}sed               # [win]
@@ -35,7 +35,6 @@ requirements:
     - r-ps >=1.2.0
   run:
     - r-base
-    - {{ native }}gcc-libs         # [win]
     - r-r6
     - r-ps >=1.2.0
 
