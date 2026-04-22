@@ -1,4 +1,4 @@
-{% set version = "3.8.7" %}
+{% set version = "3.9.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/processx_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/processx/processx_{{ version }}.tar.gz
-  sha256: 19990e986379abe2a756db2f68ca66b101c762b8215b27962f83f16571ed9b12
+  sha256: cdfef9035405891d8b104b258a40f62656f215aba7dcdc9f3226203c4c8fb354
 
 build:
   number: 0
